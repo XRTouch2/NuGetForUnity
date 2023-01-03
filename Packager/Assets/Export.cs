@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+using UnityEditor;
 
 namespace NugetForUnity
 {
@@ -17,4 +18,4 @@ namespace NugetForUnity
         }
     }
 }
-
+#endif

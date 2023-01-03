@@ -1,4 +1,3 @@
-using Serilog;
 using UnityEngine;
 
 namespace ImportAndUseNuGetPackages
@@ -10,10 +9,7 @@ namespace ImportAndUseNuGetPackages
     {
         private void Awake()
         {
-            var log = new LoggerConfiguration()
-                .CreateLogger();
 
-            log.Information("Hello, Serilog!");
         }
     }
 }
